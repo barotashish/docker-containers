@@ -1,0 +1,7 @@
+jobs:
+  build:
+    docker:
+      - image: Nginx Docker Image
+    steps:
+      - checkout
+      - run: docker info
