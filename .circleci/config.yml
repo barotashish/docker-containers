@@ -6,4 +6,4 @@ jobs:
       - checkout
       - run: 
           name: Check current version of node
-          command: docker info 
+          command: sudo docker info 
