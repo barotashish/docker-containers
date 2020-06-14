@@ -1,7 +1,9 @@
 jobs:
   build:
     docker:
-      - image: circleci/nginx 
+      - image: circleci/node:latest 
     steps:
       - checkout
-      - run: docker info
+      - run: 
+          name: Check current version of node
+          command: docker info 
