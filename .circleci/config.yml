@@ -1,7 +1,7 @@
 jobs:
   build:
     docker:
-      - image: circleci/nginx:007 
+      - image: circleci/nginx 
     steps:
       - checkout
       - run: docker info
