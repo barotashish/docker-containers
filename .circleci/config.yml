@@ -3,7 +3,7 @@ version: 0.1
 jobs:
   build:
     environment:
-      IMAGE_NAME: devopsera123/nginx-on-ci
+      IMAGE_NAME: barotashish/nginx-on-ci
     docker:
       - image: circleci/buildpack-deps:stretch
     steps:
